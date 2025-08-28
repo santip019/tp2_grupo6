@@ -1,10 +1,10 @@
-package ar.edu.ar;
+package ar.edu.unju.escmi.tp2.ejercicio1;
 
 public class Ejercicio1 {
     public static void main(String[] args) {
         int dni = 45678901;
         char persona = 'A';
-        byte edadFam = 55;
+        byte edadfam = 55;
         String procer = "José de San Martín";
         short numerobingo = 27;
         double precioCelular = 350000.50; //double porque en los precios de celulares siempre hay centavos
@@ -15,7 +15,7 @@ public class Ejercicio1 {
 
         System.out.println("Mi DNI es: " + dni);
         System.out.println("La letra de ejemplar de mi DNI es: " + persona);
-        System.out.println("La edad de mi familiar es: " + edadFam + " años");
+        System.out.println("La edad de mi familiar es: " + edadfam + " años");
         System.out.println("Un prócer argentino importante es: " + procer);
         System.out.println("Un número de bingo podría ser: " + numerobingo);
         System.out.println("El precio de un celular es: $" + precioCelular);
