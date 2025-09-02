@@ -1,20 +1,11 @@
 package ar.edu.unju.escmi.tp2.ejercicio10;
 
-import java.util.Scanner;
-
 public class Ejercicio10 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a, b, c;
-        System.out.println("Ingrese el valor de a: ");
-        a = sc.nextByte();
-        
-        System.out.println("Ingrese el valor de b: ");
-        b = sc.nextByte();
-       
-        System.out.println("Ingrese el valor de c: ");
-        c = sc.nextByte();
+        int a = 7;
+        int b = 5;
+        int c = -14;
 
         boolean resultadoA = a > 3;
         boolean resultadoB = a > c;
@@ -50,8 +41,6 @@ public class Ejercicio10 {
         System.out.println("n) " + resultadoN);
         System.out.println("o) " + resultadoO);
         System.out.println("p) " + resultadoP);
-
-        sc.close();
 
     }
 
