@@ -13,14 +13,14 @@ public class Ejercicio15 {
 
         int[] numeros = new int[tamaño];
 
-        for (int i = 1; i < numeros.length; i++) {
+        for (int i = 0; i < numeros.length; i++) {
             System.out.print("Ingrese un número entero para la posición " + i + ": ");
             numeros[i] = sc.nextInt();
         }
 
         int suma = 0;
         System.out.println("\n=== Valores del array ===");
-        for (int i = 1; i < numeros.length; i++) {
+        for (int i = 0; i < numeros.length; i++) {
             System.out.println("Posición [" + i + "] = " + numeros[i]);
             suma += numeros[i];
         }
