@@ -20,5 +20,6 @@ public class Ejercicio14 {
         for (int i = 0; i < enteros.length; i++) {
             System.out.println("El valor almacenado en la posicion " + i + " es: " + enteros[i]);
         }
+        scanner.close();
     }
 }
