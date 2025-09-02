@@ -15,7 +15,6 @@ public class Ejercicio16 {
 
         String[] nombres = new String[num];
         
-
         for(byte i=0; i<num; i++)
         {
             System.out.println("Ingrese el "+(i+1)+"° nombre: ");
