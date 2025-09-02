@@ -7,9 +7,9 @@ public class Ejercicio11 {
         Scanner sc = new Scanner(System.in);
         int num;
         
-        for (byte i=1; i<=5; i++)
+        for (byte i=0; i<5; i++)
         {
-            System.out.println("Ingrese el "+i+"° número: ");
+            System.out.println("Ingrese el "+(i+1)+"° número: ");
             num = sc.nextInt();
             
             if (num%2 == 0)
