@@ -9,6 +9,8 @@ public class Ejercicio19 {
 
         System.out.println("Comparacion de Texto1 y Texto2 con ==");
         System.out.println(texto1 == texto2);
+        System.out.println("Comparacion de Texto1 y Texto2 con equals");
+        System.out.println(texto1.equals(texto2));
         System.out.println("Comparacion de Texto1 y Texto3 con ==");
         System.out.println(texto1 == texto3);
         System.out.println("Comparacion de Texto1 y Texto3 con equals");
@@ -19,5 +21,7 @@ public class Ejercicio19 {
         // al mismo objeto en memoria.
         // La comparacion del texto1 y texto 3 con equals devuelve true porque compara
         // el contenido de los objetos, no compara la posicion que ocupan.
+        // En este caso, texto1 y texto2 tienen el mismo contenido ("Hola"), por lo que
+        // equals devuelve true.
     }
 }
